@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B4A7A990B54C177A28059D6 /* libPods-Shoneme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C45BB3E14D208E600AF830EE /* libPods-Shoneme.a */; };
+		A4B68C721EBC02450052935A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68C711EBC02450052935A /* main.m */; };
+		A4B68C751EBC02450052935A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68C741EBC02450052935A /* AppDelegate.m */; };
+		A4B68C7D1EBC02450052935A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B68C7C1EBC02450052935A /* Assets.xcassets */; };
+		A4B68C8B1EBC02450052935A /* ShonemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68C8A1EBC02450052935A /* ShonemeTests.m */; };
+		A4B68C961EBC02450052935A /* ShonemeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68C951EBC02450052935A /* ShonemeUITests.m */; };
+		A4B68CA81EBC038F0052935A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CA71EBC038F0052935A /* BaseViewController.m */; };
+		A4B68CA91EBC038F0052935A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CA71EBC038F0052935A /* BaseViewController.m */; };
+		A4B68CAA1EBC038F0052935A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CA71EBC038F0052935A /* BaseViewController.m */; };
+		A4B68CB31EBC04300052935A /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB21EBC04300052935A /* BaseTabBarViewController.m */; };
+		A4B68CB41EBC04300052935A /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB21EBC04300052935A /* BaseTabBarViewController.m */; };
+		A4B68CB51EBC04300052935A /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB21EBC04300052935A /* BaseTabBarViewController.m */; };
+		A4B68CB81EBC046E0052935A /* MainTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB71EBC046E0052935A /* MainTabBarVC.m */; };
+		A4B68CB91EBC046E0052935A /* MainTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB71EBC046E0052935A /* MainTabBarVC.m */; };
+		A4B68CBA1EBC046E0052935A /* MainTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB71EBC046E0052935A /* MainTabBarVC.m */; };
+		A4B68CC11EBC056C0052935A /* HomeMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CBE1EBC056C0052935A /* HomeMainVC.m */; };
+		A4B68CC21EBC056C0052935A /* HomeMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CBE1EBC056C0052935A /* HomeMainVC.m */; };
+		A4B68CC31EBC056C0052935A /* HomeMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CBE1EBC056C0052935A /* HomeMainVC.m */; };
+		A4B68CC61EBC059C0052935A /* MineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CC51EBC059C0052935A /* MineMainVC.m */; };
+		A4B68CC71EBC059C0052935A /* MineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CC51EBC059C0052935A /* MineMainVC.m */; };
+		A4B68CC81EBC059C0052935A /* MineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CC51EBC059C0052935A /* MineMainVC.m */; };
+		A4B68CCB1EBC06A60052935A /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CCA1EBC06A60052935A /* BaseNavigationViewController.m */; };
+		A4B68CCC1EBC06A60052935A /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CCA1EBC06A60052935A /* BaseNavigationViewController.m */; };
+		A4B68CCD1EBC06A60052935A /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CCA1EBC06A60052935A /* BaseNavigationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4B68C871EBC02450052935A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4B68C651EBC02450052935A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4B68C6C1EBC02450052935A;
+			remoteInfo = Shoneme;
+		};
+		A4B68C921EBC02450052935A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4B68C651EBC02450052935A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4B68C6C1EBC02450052935A;
+			remoteInfo = Shoneme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		695F4BBF513E2C89ABDFD71F /* Pods-Shoneme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoneme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shoneme/Pods-Shoneme.release.xcconfig"; sourceTree = "<group>"; };
+		724C29C21CA1FC7320A618C0 /* Pods-Shoneme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoneme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shoneme/Pods-Shoneme.debug.xcconfig"; sourceTree = "<group>"; };
+		A4B68C6D1EBC02450052935A /* Shoneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoneme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B68C711EBC02450052935A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4B68C731EBC02450052935A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4B68C741EBC02450052935A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4B68C7C1EBC02450052935A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4B68C811EBC02450052935A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B68C861EBC02450052935A /* ShonemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShonemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B68C8A1EBC02450052935A /* ShonemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShonemeTests.m; sourceTree = "<group>"; };
+		A4B68C8C1EBC02450052935A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B68C911EBC02450052935A /* ShonemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShonemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B68C951EBC02450052935A /* ShonemeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShonemeUITests.m; sourceTree = "<group>"; };
+		A4B68C971EBC02450052935A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B68CA61EBC038F0052935A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A4B68CA71EBC038F0052935A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A4B68CB11EBC04300052935A /* BaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
+		A4B68CB21EBC04300052935A /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
+		A4B68CB61EBC046E0052935A /* MainTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarVC.h; sourceTree = "<group>"; };
+		A4B68CB71EBC046E0052935A /* MainTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarVC.m; sourceTree = "<group>"; };
+		A4B68CBD1EBC056C0052935A /* HomeMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMainVC.h; sourceTree = "<group>"; };
+		A4B68CBE1EBC056C0052935A /* HomeMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMainVC.m; sourceTree = "<group>"; };
+		A4B68CC41EBC059C0052935A /* MineMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineMainVC.h; sourceTree = "<group>"; };
+		A4B68CC51EBC059C0052935A /* MineMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineMainVC.m; sourceTree = "<group>"; };
+		A4B68CC91EBC06A60052935A /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		A4B68CCA1EBC06A60052935A /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		C45BB3E14D208E600AF830EE /* libPods-Shoneme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shoneme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4B68C6A1EBC02450052935A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4A7A990B54C177A28059D6 /* libPods-Shoneme.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B68C831EBC02450052935A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B68C8E1EBC02450052935A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		937F67A145556DF11B6F31F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C45BB3E14D208E600AF830EE /* libPods-Shoneme.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4B68C641EBC02450052935A = {
+			isa = PBXGroup;
+			children = (
+				A4B68C6F1EBC02450052935A /* Shoneme */,
+				A4B68C891EBC02450052935A /* ShonemeTests */,
+				A4B68C941EBC02450052935A /* ShonemeUITests */,
+				A4B68C6E1EBC02450052935A /* Products */,
+				BB0BE18B33CAE728E820746E /* Pods */,
+				937F67A145556DF11B6F31F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4B68C6E1EBC02450052935A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4B68C6D1EBC02450052935A /* Shoneme.app */,
+				A4B68C861EBC02450052935A /* ShonemeTests.xctest */,
+				A4B68C911EBC02450052935A /* ShonemeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4B68C6F1EBC02450052935A /* Shoneme */ = {
+			isa = PBXGroup;
+			children = (
+				A4B68C731EBC02450052935A /* AppDelegate.h */,
+				A4B68C741EBC02450052935A /* AppDelegate.m */,
+				A4B68CA51EBC03710052935A /* BaseModule */,
+				A4B68CA41EBC033D0052935A /* MainLogic */,
+				A4B68C701EBC02450052935A /* Supporting Files */,
+			);
+			path = Shoneme;
+			sourceTree = "<group>";
+		};
+		A4B68C701EBC02450052935A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4B68C7C1EBC02450052935A /* Assets.xcassets */,
+				A4B68C811EBC02450052935A /* Info.plist */,
+				A4B68C711EBC02450052935A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4B68C891EBC02450052935A /* ShonemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4B68C8A1EBC02450052935A /* ShonemeTests.m */,
+				A4B68C8C1EBC02450052935A /* Info.plist */,
+			);
+			path = ShonemeTests;
+			sourceTree = "<group>";
+		};
+		A4B68C941EBC02450052935A /* ShonemeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4B68C951EBC02450052935A /* ShonemeUITests.m */,
+				A4B68C971EBC02450052935A /* Info.plist */,
+			);
+			path = ShonemeUITests;
+			sourceTree = "<group>";
+		};
+		A4B68CA41EBC033D0052935A /* MainLogic */ = {
+			isa = PBXGroup;
+			children = (
+				A4B68CB01EBC04020052935A /* MainTabBarVC */,
+				A4B68CBB1EBC056C0052935A /* HomeLogic */,
+				A4B68CBF1EBC056C0052935A /* MineLogic */,
+			);
+			path = MainLogic;
+			sourceTree = "<group>";
+		};
+		A4B68CA51EBC03710052935A /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				A4B68CA61EBC038F0052935A /* BaseViewController.h */,
+				A4B68CA71EBC038F0052935A /* BaseViewController.m */,
+				A4B68CB11EBC04300052935A /* BaseTabBarViewController.h */,
+				A4B68CB21EBC04300052935A /* BaseTabBarViewController.m */,
+				A4B68CC91EBC06A60052935A /* BaseNavigationViewController.h */,
+				A4B68CCA1EBC06A60052935A /* BaseNavigationViewController.m */,
+			);
+			path = BaseModule;
+			sourceTree = "<group>";
+		};
+		A4B68CB01EBC04020052935A /* MainTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				A4B68CB61EBC046E0052935A /* MainTabBarVC.h */,
+				A4B68CB71EBC046E0052935A /* MainTabBarVC.m */,
+			);
+			path = MainTabBarVC;
+			sourceTree = "<group>";
+		};
+		A4B68CBB1EBC056C0052935A /* HomeLogic */ = {
+			isa = PBXGroup;
+			children = (
+				A4B68CBC1EBC056C0052935A /* VC */,
+			);
+			path = HomeLogic;
+			sourceTree = "<group>";
+		};
+		A4B68CBC1EBC056C0052935A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A4B68CBD1EBC056C0052935A /* HomeMainVC.h */,
+				A4B68CBE1EBC056C0052935A /* HomeMainVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		A4B68CBF1EBC056C0052935A /* MineLogic */ = {
+			isa = PBXGroup;
+			children = (
+				A4B68CC01EBC056C0052935A /* VC */,
+			);
+			path = MineLogic;
+			sourceTree = "<group>";
+		};
+		A4B68CC01EBC056C0052935A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A4B68CC41EBC059C0052935A /* MineMainVC.h */,
+				A4B68CC51EBC059C0052935A /* MineMainVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BB0BE18B33CAE728E820746E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				724C29C21CA1FC7320A618C0 /* Pods-Shoneme.debug.xcconfig */,
+				695F4BBF513E2C89ABDFD71F /* Pods-Shoneme.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4B68C6C1EBC02450052935A /* Shoneme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B68C9A1EBC02450052935A /* Build configuration list for PBXNativeTarget "Shoneme" */;
+			buildPhases = (
+				9E260453D1CA489CB3AB1CA6 /* 📦 Check Pods Manifest.lock */,
+				A4B68C691EBC02450052935A /* Sources */,
+				A4B68C6A1EBC02450052935A /* Frameworks */,
+				A4B68C6B1EBC02450052935A /* Resources */,
+				A540A0D96F7A118440257EEB /* 📦 Embed Pods Frameworks */,
+				40B25ED78027292D8633838E /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shoneme;
+			productName = Shoneme;
+			productReference = A4B68C6D1EBC02450052935A /* Shoneme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4B68C851EBC02450052935A /* ShonemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B68C9D1EBC02450052935A /* Build configuration list for PBXNativeTarget "ShonemeTests" */;
+			buildPhases = (
+				A4B68C821EBC02450052935A /* Sources */,
+				A4B68C831EBC02450052935A /* Frameworks */,
+				A4B68C841EBC02450052935A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4B68C881EBC02450052935A /* PBXTargetDependency */,
+			);
+			name = ShonemeTests;
+			productName = ShonemeTests;
+			productReference = A4B68C861EBC02450052935A /* ShonemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4B68C901EBC02450052935A /* ShonemeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B68CA01EBC02450052935A /* Build configuration list for PBXNativeTarget "ShonemeUITests" */;
+			buildPhases = (
+				A4B68C8D1EBC02450052935A /* Sources */,
+				A4B68C8E1EBC02450052935A /* Frameworks */,
+				A4B68C8F1EBC02450052935A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4B68C931EBC02450052935A /* PBXTargetDependency */,
+			);
+			name = ShonemeUITests;
+			productName = ShonemeUITests;
+			productReference = A4B68C911EBC02450052935A /* ShonemeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4B68C651EBC02450052935A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xm;
+				TargetAttributes = {
+					A4B68C6C1EBC02450052935A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8DQR5VT4B3;
+						ProvisioningStyle = Automatic;
+					};
+					A4B68C851EBC02450052935A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8DQR5VT4B3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4B68C6C1EBC02450052935A;
+					};
+					A4B68C901EBC02450052935A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8DQR5VT4B3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4B68C6C1EBC02450052935A;
+					};
+				};
+			};
+			buildConfigurationList = A4B68C681EBC02450052935A /* Build configuration list for PBXProject "Shoneme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4B68C641EBC02450052935A;
+			productRefGroup = A4B68C6E1EBC02450052935A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4B68C6C1EBC02450052935A /* Shoneme */,
+				A4B68C851EBC02450052935A /* ShonemeTests */,
+				A4B68C901EBC02450052935A /* ShonemeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4B68C6B1EBC02450052935A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B68C7D1EBC02450052935A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B68C841EBC02450052935A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B68C8F1EBC02450052935A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40B25ED78027292D8633838E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoneme/Pods-Shoneme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E260453D1CA489CB3AB1CA6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A540A0D96F7A118440257EEB /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoneme/Pods-Shoneme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4B68C691EBC02450052935A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B68CC11EBC056C0052935A /* HomeMainVC.m in Sources */,
+				A4B68C751EBC02450052935A /* AppDelegate.m in Sources */,
+				A4B68CA81EBC038F0052935A /* BaseViewController.m in Sources */,
+				A4B68CCB1EBC06A60052935A /* BaseNavigationViewController.m in Sources */,
+				A4B68CB31EBC04300052935A /* BaseTabBarViewController.m in Sources */,
+				A4B68CC61EBC059C0052935A /* MineMainVC.m in Sources */,
+				A4B68C721EBC02450052935A /* main.m in Sources */,
+				A4B68CB81EBC046E0052935A /* MainTabBarVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B68C821EBC02450052935A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B68C8B1EBC02450052935A /* ShonemeTests.m in Sources */,
+				A4B68CA91EBC038F0052935A /* BaseViewController.m in Sources */,
+				A4B68CCC1EBC06A60052935A /* BaseNavigationViewController.m in Sources */,
+				A4B68CB41EBC04300052935A /* BaseTabBarViewController.m in Sources */,
+				A4B68CC21EBC056C0052935A /* HomeMainVC.m in Sources */,
+				A4B68CC71EBC059C0052935A /* MineMainVC.m in Sources */,
+				A4B68CB91EBC046E0052935A /* MainTabBarVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B68C8D1EBC02450052935A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B68C961EBC02450052935A /* ShonemeUITests.m in Sources */,
+				A4B68CAA1EBC038F0052935A /* BaseViewController.m in Sources */,
+				A4B68CCD1EBC06A60052935A /* BaseNavigationViewController.m in Sources */,
+				A4B68CB51EBC04300052935A /* BaseTabBarViewController.m in Sources */,
+				A4B68CC31EBC056C0052935A /* HomeMainVC.m in Sources */,
+				A4B68CC81EBC059C0052935A /* MineMainVC.m in Sources */,
+				A4B68CBA1EBC046E0052935A /* MainTabBarVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4B68C881EBC02450052935A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4B68C6C1EBC02450052935A /* Shoneme */;
+			targetProxy = A4B68C871EBC02450052935A /* PBXContainerItemProxy */;
+		};
+		A4B68C931EBC02450052935A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4B68C6C1EBC02450052935A /* Shoneme */;
+			targetProxy = A4B68C921EBC02450052935A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4B68C981EBC02450052935A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4B68C991EBC02450052935A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4B68C9B1EBC02450052935A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724C29C21CA1FC7320A618C0 /* Pods-Shoneme.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DQR5VT4B3;
+				INFOPLIST_FILE = Shoneme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shoneme.Shoneme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4B68C9C1EBC02450052935A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 695F4BBF513E2C89ABDFD71F /* Pods-Shoneme.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DQR5VT4B3;
+				INFOPLIST_FILE = Shoneme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shoneme.Shoneme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4B68C9E1EBC02450052935A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8DQR5VT4B3;
+				INFOPLIST_FILE = ShonemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shoneme.ShonemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoneme.app/Shoneme";
+			};
+			name = Debug;
+		};
+		A4B68C9F1EBC02450052935A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8DQR5VT4B3;
+				INFOPLIST_FILE = ShonemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shoneme.ShonemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoneme.app/Shoneme";
+			};
+			name = Release;
+		};
+		A4B68CA11EBC02450052935A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8DQR5VT4B3;
+				INFOPLIST_FILE = ShonemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shoneme.ShonemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Shoneme;
+			};
+			name = Debug;
+		};
+		A4B68CA21EBC02450052935A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8DQR5VT4B3;
+				INFOPLIST_FILE = ShonemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shoneme.ShonemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Shoneme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4B68C681EBC02450052935A /* Build configuration list for PBXProject "Shoneme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B68C981EBC02450052935A /* Debug */,
+				A4B68C991EBC02450052935A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B68C9A1EBC02450052935A /* Build configuration list for PBXNativeTarget "Shoneme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B68C9B1EBC02450052935A /* Debug */,
+				A4B68C9C1EBC02450052935A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B68C9D1EBC02450052935A /* Build configuration list for PBXNativeTarget "ShonemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B68C9E1EBC02450052935A /* Debug */,
+				A4B68C9F1EBC02450052935A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B68CA01EBC02450052935A /* Build configuration list for PBXNativeTarget "ShonemeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B68CA11EBC02450052935A /* Debug */,
+				A4B68CA21EBC02450052935A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4B68C651EBC02450052935A /* Project object */;
+}

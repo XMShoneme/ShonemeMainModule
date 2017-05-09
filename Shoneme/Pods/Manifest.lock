@@ -14,13 +14,16 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - XMCTMediator (1.0.2)
 
 DEPENDENCIES:
   - AFNetworking
+  - XMCTMediator
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  XMCTMediator: 2a99c6b1ad6e6cbe2be8d11aa3530978bb29dc6b
 
-PODFILE CHECKSUM: b4daa006c2130421ad9f757228ac38d3a730a9a8
+PODFILE CHECKSUM: 42c78afe3d2bf1dd9dfe77d5d667a2ffed357e60
 
-COCOAPODS: 1.0.0.rc.2
+COCOAPODS: 1.2.1

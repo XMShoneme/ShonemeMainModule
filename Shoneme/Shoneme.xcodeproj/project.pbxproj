@@ -13,24 +13,12 @@
 		A4B68C7D1EBC02450052935A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B68C7C1EBC02450052935A /* Assets.xcassets */; };
 		A4B68C8B1EBC02450052935A /* ShonemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68C8A1EBC02450052935A /* ShonemeTests.m */; };
 		A4B68C961EBC02450052935A /* ShonemeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68C951EBC02450052935A /* ShonemeUITests.m */; };
-		A4B68CA81EBC038F0052935A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CA71EBC038F0052935A /* BaseViewController.m */; };
-		A4B68CA91EBC038F0052935A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CA71EBC038F0052935A /* BaseViewController.m */; };
-		A4B68CAA1EBC038F0052935A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CA71EBC038F0052935A /* BaseViewController.m */; };
-		A4B68CB31EBC04300052935A /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB21EBC04300052935A /* BaseTabBarViewController.m */; };
-		A4B68CB41EBC04300052935A /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB21EBC04300052935A /* BaseTabBarViewController.m */; };
-		A4B68CB51EBC04300052935A /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB21EBC04300052935A /* BaseTabBarViewController.m */; };
 		A4B68CB81EBC046E0052935A /* MainTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB71EBC046E0052935A /* MainTabBarVC.m */; };
 		A4B68CB91EBC046E0052935A /* MainTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB71EBC046E0052935A /* MainTabBarVC.m */; };
 		A4B68CBA1EBC046E0052935A /* MainTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB71EBC046E0052935A /* MainTabBarVC.m */; };
 		A4B68CC11EBC056C0052935A /* HomeMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CBE1EBC056C0052935A /* HomeMainVC.m */; };
 		A4B68CC21EBC056C0052935A /* HomeMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CBE1EBC056C0052935A /* HomeMainVC.m */; };
 		A4B68CC31EBC056C0052935A /* HomeMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CBE1EBC056C0052935A /* HomeMainVC.m */; };
-		A4B68CC61EBC059C0052935A /* MineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CC51EBC059C0052935A /* MineMainVC.m */; };
-		A4B68CC71EBC059C0052935A /* MineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CC51EBC059C0052935A /* MineMainVC.m */; };
-		A4B68CC81EBC059C0052935A /* MineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CC51EBC059C0052935A /* MineMainVC.m */; };
-		A4B68CCB1EBC06A60052935A /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CCA1EBC06A60052935A /* BaseNavigationViewController.m */; };
-		A4B68CCC1EBC06A60052935A /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CCA1EBC06A60052935A /* BaseNavigationViewController.m */; };
-		A4B68CCD1EBC06A60052935A /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CCA1EBC06A60052935A /* BaseNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,18 +53,10 @@
 		A4B68C911EBC02450052935A /* ShonemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShonemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B68C951EBC02450052935A /* ShonemeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShonemeUITests.m; sourceTree = "<group>"; };
 		A4B68C971EBC02450052935A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4B68CA61EBC038F0052935A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		A4B68CA71EBC038F0052935A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		A4B68CB11EBC04300052935A /* BaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
-		A4B68CB21EBC04300052935A /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
 		A4B68CB61EBC046E0052935A /* MainTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarVC.h; sourceTree = "<group>"; };
 		A4B68CB71EBC046E0052935A /* MainTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarVC.m; sourceTree = "<group>"; };
 		A4B68CBD1EBC056C0052935A /* HomeMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMainVC.h; sourceTree = "<group>"; };
 		A4B68CBE1EBC056C0052935A /* HomeMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMainVC.m; sourceTree = "<group>"; };
-		A4B68CC41EBC059C0052935A /* MineMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineMainVC.h; sourceTree = "<group>"; };
-		A4B68CC51EBC059C0052935A /* MineMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineMainVC.m; sourceTree = "<group>"; };
-		A4B68CC91EBC06A60052935A /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
-		A4B68CCA1EBC06A60052935A /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
 		C45BB3E14D208E600AF830EE /* libPods-Shoneme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shoneme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -141,7 +121,6 @@
 			children = (
 				A4B68C731EBC02450052935A /* AppDelegate.h */,
 				A4B68C741EBC02450052935A /* AppDelegate.m */,
-				A4B68CA51EBC03710052935A /* BaseModule */,
 				A4B68CA41EBC033D0052935A /* MainLogic */,
 				A4B68C701EBC02450052935A /* Supporting Files */,
 			);
@@ -181,22 +160,8 @@
 			children = (
 				A4B68CB01EBC04020052935A /* MainTabBarVC */,
 				A4B68CBB1EBC056C0052935A /* HomeLogic */,
-				A4B68CBF1EBC056C0052935A /* MineLogic */,
 			);
 			path = MainLogic;
-			sourceTree = "<group>";
-		};
-		A4B68CA51EBC03710052935A /* BaseModule */ = {
-			isa = PBXGroup;
-			children = (
-				A4B68CA61EBC038F0052935A /* BaseViewController.h */,
-				A4B68CA71EBC038F0052935A /* BaseViewController.m */,
-				A4B68CB11EBC04300052935A /* BaseTabBarViewController.h */,
-				A4B68CB21EBC04300052935A /* BaseTabBarViewController.m */,
-				A4B68CC91EBC06A60052935A /* BaseNavigationViewController.h */,
-				A4B68CCA1EBC06A60052935A /* BaseNavigationViewController.m */,
-			);
-			path = BaseModule;
 			sourceTree = "<group>";
 		};
 		A4B68CB01EBC04020052935A /* MainTabBarVC */ = {
@@ -221,23 +186,6 @@
 			children = (
 				A4B68CBD1EBC056C0052935A /* HomeMainVC.h */,
 				A4B68CBE1EBC056C0052935A /* HomeMainVC.m */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		A4B68CBF1EBC056C0052935A /* MineLogic */ = {
-			isa = PBXGroup;
-			children = (
-				A4B68CC01EBC056C0052935A /* VC */,
-			);
-			path = MineLogic;
-			sourceTree = "<group>";
-		};
-		A4B68CC01EBC056C0052935A /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				A4B68CC41EBC059C0052935A /* MineMainVC.h */,
-				A4B68CC51EBC059C0052935A /* MineMainVC.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -438,10 +386,6 @@
 			files = (
 				A4B68CC11EBC056C0052935A /* HomeMainVC.m in Sources */,
 				A4B68C751EBC02450052935A /* AppDelegate.m in Sources */,
-				A4B68CA81EBC038F0052935A /* BaseViewController.m in Sources */,
-				A4B68CCB1EBC06A60052935A /* BaseNavigationViewController.m in Sources */,
-				A4B68CB31EBC04300052935A /* BaseTabBarViewController.m in Sources */,
-				A4B68CC61EBC059C0052935A /* MineMainVC.m in Sources */,
 				A4B68C721EBC02450052935A /* main.m in Sources */,
 				A4B68CB81EBC046E0052935A /* MainTabBarVC.m in Sources */,
 			);
@@ -452,11 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B68C8B1EBC02450052935A /* ShonemeTests.m in Sources */,
-				A4B68CA91EBC038F0052935A /* BaseViewController.m in Sources */,
-				A4B68CCC1EBC06A60052935A /* BaseNavigationViewController.m in Sources */,
-				A4B68CB41EBC04300052935A /* BaseTabBarViewController.m in Sources */,
 				A4B68CC21EBC056C0052935A /* HomeMainVC.m in Sources */,
-				A4B68CC71EBC059C0052935A /* MineMainVC.m in Sources */,
 				A4B68CB91EBC046E0052935A /* MainTabBarVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,11 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B68C961EBC02450052935A /* ShonemeUITests.m in Sources */,
-				A4B68CAA1EBC038F0052935A /* BaseViewController.m in Sources */,
-				A4B68CCD1EBC06A60052935A /* BaseNavigationViewController.m in Sources */,
-				A4B68CB51EBC04300052935A /* BaseTabBarViewController.m in Sources */,
 				A4B68CC31EBC056C0052935A /* HomeMainVC.m in Sources */,
-				A4B68CC81EBC059C0052935A /* MineMainVC.m in Sources */,
 				A4B68CBA1EBC046E0052935A /* MainTabBarVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

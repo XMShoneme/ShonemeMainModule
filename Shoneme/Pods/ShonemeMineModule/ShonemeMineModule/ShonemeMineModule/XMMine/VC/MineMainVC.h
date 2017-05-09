@@ -6,7 +6,7 @@
 //  Copyright © 2017年 xm. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import <XMBaseObjectModule/BaseViewController.h>
 
 @interface MineMainVC : BaseViewController
 

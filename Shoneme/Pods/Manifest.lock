@@ -14,16 +14,31 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - ShonemeMineModule (1.0.4):
+    - ShonemeMineModule/VC (= 1.0.4)
+    - XMBaseObjectModule
+  - ShonemeMineModule/VC (1.0.4):
+    - XMBaseObjectModule
+  - ShonemeMineModule_Category (1.0.0):
+    - XMCTMediator
+  - XMBaseObjectModule (1.0.0)
   - XMCTMediator (1.0.2)
+  - XMToolModule (1.0.1)
 
 DEPENDENCIES:
   - AFNetworking
-  - XMCTMediator
+  - ShonemeMineModule (~> 1.0.4)
+  - ShonemeMineModule_Category
+  - XMToolModule
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ShonemeMineModule: e62e41af6593cb0b682ac001f0030100d49561ea
+  ShonemeMineModule_Category: 3ca712570874ed112d4d27a668194c8c1a522723
+  XMBaseObjectModule: bbb16a87809ead1d8c77f79ac03725902481125f
   XMCTMediator: 2a99c6b1ad6e6cbe2be8d11aa3530978bb29dc6b
+  XMToolModule: 3b5830338de9ea61cb1932ad8344fe45a45bb6f8
 
-PODFILE CHECKSUM: 42c78afe3d2bf1dd9dfe77d5d667a2ffed357e60
+PODFILE CHECKSUM: 1594a1b9b2621640a4fd563cf663e607cd91790d
 
 COCOAPODS: 1.2.1

@@ -7,10 +7,9 @@
 //
 
 #import "MainTabBarVC.h"
-
-#import "BaseNavigationViewController.h"
+#import <XMBaseObjectModule/BaseNavigationViewController.h>
 #import "HomeMainVC.h"
-#import "MineMainVC.h"
+#import <ShonemeMineModule_Category/XMCTMediator+MineModuleActions.h>
 
 @interface MainTabBarVC ()
 
@@ -21,7 +20,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
     [self loadTabBarViewController];
 }
 
@@ -47,7 +45,7 @@
     BaseNavigationViewController *homePageNavigation = [[BaseNavigationViewController alloc] initWithRootViewController:homePageViewController];
     homePageNavigation.tabBarItem.title=@"首页";
     
-    MineMainVC *mineVC = [[MineMainVC alloc] init];
+    UIViewController *mineVC = [[XMCTMediator sharedInstance] CTMediator_viewControllerForDetail];
     BaseNavigationViewController *minePageNavigation = [[BaseNavigationViewController alloc] initWithRootViewController:mineVC];
     minePageNavigation.tabBarItem.title=@"我的";
     

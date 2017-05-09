@@ -1,6 +1,10 @@
 platform :ios, '8.0'
 
 target 'Shoneme' do
-pod  'AFNetworking'
-pod  'XMCTMediator'
+
+    pod 'AFNetworking'
+    pod 'XMToolModule'
+    pod 'ShonemeMineModule' , '~>1.0.4'
+    pod 'ShonemeMineModule_Category'
+
 end

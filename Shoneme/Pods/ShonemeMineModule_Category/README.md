@@ -1,0 +1,2 @@
+# ShonemeMineModule_Category
+ShonemeMineModule ctmediator

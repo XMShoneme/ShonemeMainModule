@@ -6,7 +6,8 @@
 //  Copyright © 2017年 xm. All rights reserved.
 //
 
-#import "BaseTabBarViewController.h"
+
+#import <XMBaseObjectModule/BaseTabBarViewController.h>
 
 @interface MainTabBarVC : BaseTabBarViewController<UITabBarControllerDelegate>
 

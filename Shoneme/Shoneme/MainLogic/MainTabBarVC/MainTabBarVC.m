@@ -8,8 +8,9 @@
 
 #import "MainTabBarVC.h"
 #import <XMBaseObjectModule/BaseNavigationViewController.h>
-#import "HomeMainVC.h"
+
 #import <ShonemeMineModule_Category/XMCTMediator+MineModuleActions.h>
+#import <ShonemeHomeModule_Category/XMCTMediator+HomeModuleAction.h>
 
 @interface MainTabBarVC ()
 
@@ -41,11 +42,11 @@
     NSMutableDictionary *selectTextAttrs = [NSMutableDictionary dictionary];
     selectTextAttrs[NSForegroundColorAttributeName] = [UIColor orangeColor];
     
-    HomeMainVC *homePageViewController = [[HomeMainVC alloc] init];
+    UIViewController *homePageViewController = [[XMCTMediator sharedInstance] CTMediator_HomeMain_viewController];
     BaseNavigationViewController *homePageNavigation = [[BaseNavigationViewController alloc] initWithRootViewController:homePageViewController];
     homePageNavigation.tabBarItem.title=@"首页";
     
-    UIViewController *mineVC = [[XMCTMediator sharedInstance] CTMediator_viewControllerForDetail];
+    UIViewController *mineVC = [[XMCTMediator sharedInstance] CTMediator_MineMain_viewController];
     BaseNavigationViewController *minePageNavigation = [[BaseNavigationViewController alloc] initWithRootViewController:mineVC];
     minePageNavigation.tabBarItem.title=@"我的";
     

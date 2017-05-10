@@ -16,9 +16,6 @@
 		A4B68CB81EBC046E0052935A /* MainTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB71EBC046E0052935A /* MainTabBarVC.m */; };
 		A4B68CB91EBC046E0052935A /* MainTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB71EBC046E0052935A /* MainTabBarVC.m */; };
 		A4B68CBA1EBC046E0052935A /* MainTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CB71EBC046E0052935A /* MainTabBarVC.m */; };
-		A4B68CC11EBC056C0052935A /* HomeMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CBE1EBC056C0052935A /* HomeMainVC.m */; };
-		A4B68CC21EBC056C0052935A /* HomeMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CBE1EBC056C0052935A /* HomeMainVC.m */; };
-		A4B68CC31EBC056C0052935A /* HomeMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B68CBE1EBC056C0052935A /* HomeMainVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +52,6 @@
 		A4B68C971EBC02450052935A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4B68CB61EBC046E0052935A /* MainTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarVC.h; sourceTree = "<group>"; };
 		A4B68CB71EBC046E0052935A /* MainTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarVC.m; sourceTree = "<group>"; };
-		A4B68CBD1EBC056C0052935A /* HomeMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMainVC.h; sourceTree = "<group>"; };
-		A4B68CBE1EBC056C0052935A /* HomeMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMainVC.m; sourceTree = "<group>"; };
 		C45BB3E14D208E600AF830EE /* libPods-Shoneme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shoneme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -159,7 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				A4B68CB01EBC04020052935A /* MainTabBarVC */,
-				A4B68CBB1EBC056C0052935A /* HomeLogic */,
 			);
 			path = MainLogic;
 			sourceTree = "<group>";
@@ -171,23 +165,6 @@
 				A4B68CB71EBC046E0052935A /* MainTabBarVC.m */,
 			);
 			path = MainTabBarVC;
-			sourceTree = "<group>";
-		};
-		A4B68CBB1EBC056C0052935A /* HomeLogic */ = {
-			isa = PBXGroup;
-			children = (
-				A4B68CBC1EBC056C0052935A /* VC */,
-			);
-			path = HomeLogic;
-			sourceTree = "<group>";
-		};
-		A4B68CBC1EBC056C0052935A /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				A4B68CBD1EBC056C0052935A /* HomeMainVC.h */,
-				A4B68CBE1EBC056C0052935A /* HomeMainVC.m */,
-			);
-			path = VC;
 			sourceTree = "<group>";
 		};
 		BB0BE18B33CAE728E820746E /* Pods */ = {
@@ -384,7 +361,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4B68CC11EBC056C0052935A /* HomeMainVC.m in Sources */,
 				A4B68C751EBC02450052935A /* AppDelegate.m in Sources */,
 				A4B68C721EBC02450052935A /* main.m in Sources */,
 				A4B68CB81EBC046E0052935A /* MainTabBarVC.m in Sources */,
@@ -396,7 +372,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B68C8B1EBC02450052935A /* ShonemeTests.m in Sources */,
-				A4B68CC21EBC056C0052935A /* HomeMainVC.m in Sources */,
 				A4B68CB91EBC046E0052935A /* MainTabBarVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,7 +381,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B68C961EBC02450052935A /* ShonemeUITests.m in Sources */,
-				A4B68CC31EBC056C0052935A /* HomeMainVC.m in Sources */,
 				A4B68CBA1EBC046E0052935A /* MainTabBarVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

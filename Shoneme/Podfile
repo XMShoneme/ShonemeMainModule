@@ -4,7 +4,12 @@ target 'Shoneme' do
 
     pod 'AFNetworking'
     pod 'XMToolModule'
-    pod 'ShonemeMineModule' , '~>1.0.4'
-    pod 'ShonemeMineModule_Category'
+    
+    
+    pod 'ShonemeMineModule' , '~>1.0.7'
+    pod 'ShonemeMineModule_Category' , '1.0.1'
+    
+    pod 'ShonemeHomeModule'
+    pod 'ShonemeHomeModule_Category' , '1.0.1'
 
 end

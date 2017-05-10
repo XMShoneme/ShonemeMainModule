@@ -14,12 +14,27 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - ShonemeMineModule (1.0.4):
-    - ShonemeMineModule/VC (= 1.0.4)
+  - ShonemeHomeModule (1.0.2):
+    - ShonemeHomeModule/Targets (= 1.0.2)
+    - ShonemeHomeModule/VC (= 1.0.2)
     - XMBaseObjectModule
-  - ShonemeMineModule/VC (1.0.4):
+  - ShonemeHomeModule/Targets (1.0.2):
+    - ShonemeHomeModule/VC
     - XMBaseObjectModule
-  - ShonemeMineModule_Category (1.0.0):
+  - ShonemeHomeModule/VC (1.0.2):
+    - XMBaseObjectModule
+  - ShonemeHomeModule_Category (1.0.1):
+    - XMCTMediator
+  - ShonemeMineModule (1.0.7):
+    - ShonemeMineModule/Targets (= 1.0.7)
+    - ShonemeMineModule/VC (= 1.0.7)
+    - XMBaseObjectModule
+  - ShonemeMineModule/Targets (1.0.7):
+    - ShonemeMineModule/VC
+    - XMBaseObjectModule
+  - ShonemeMineModule/VC (1.0.7):
+    - XMBaseObjectModule
+  - ShonemeMineModule_Category (1.0.1):
     - XMCTMediator
   - XMBaseObjectModule (1.0.0)
   - XMCTMediator (1.0.2)
@@ -27,18 +42,22 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - ShonemeMineModule (~> 1.0.4)
-  - ShonemeMineModule_Category
+  - ShonemeHomeModule
+  - ShonemeHomeModule_Category (= 1.0.1)
+  - ShonemeMineModule (~> 1.0.7)
+  - ShonemeMineModule_Category (= 1.0.1)
   - XMToolModule
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  ShonemeMineModule: e62e41af6593cb0b682ac001f0030100d49561ea
-  ShonemeMineModule_Category: 3ca712570874ed112d4d27a668194c8c1a522723
+  ShonemeHomeModule: e3585c586bb2e1e888f4ed5cb8bb0f4b141802f8
+  ShonemeHomeModule_Category: dc83c655e3c35cf317e635a51f1dfca128061a1b
+  ShonemeMineModule: 67928b59fa04a4d546607edb98546b0cf19bfa99
+  ShonemeMineModule_Category: 131f158891376ae76dbc3690f9057c525abc6624
   XMBaseObjectModule: bbb16a87809ead1d8c77f79ac03725902481125f
   XMCTMediator: 2a99c6b1ad6e6cbe2be8d11aa3530978bb29dc6b
   XMToolModule: 3b5830338de9ea61cb1932ad8344fe45a45bb6f8
 
-PODFILE CHECKSUM: 1594a1b9b2621640a4fd563cf663e607cd91790d
+PODFILE CHECKSUM: f5d23df936fe2639f49ed9f033904763fc36d85f
 
 COCOAPODS: 1.2.1

@@ -10,7 +10,7 @@
 
 @implementation XMCTMediator (MineModuleActions)
 
-- (UIViewController *)CTMediator_viewControllerForDetail
+- (UIViewController *)CTMediator_MineMain_viewController
 {
     return [self performTarget:@"XMMineMainVC" action:@"viewController" params:nil shouldCacheTarget:NO];
 }

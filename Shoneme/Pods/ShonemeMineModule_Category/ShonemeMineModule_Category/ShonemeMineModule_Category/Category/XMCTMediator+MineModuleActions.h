@@ -11,6 +11,6 @@
 
 @interface XMCTMediator (MineModuleActions)
 
-- (UIViewController *)CTMediator_viewControllerForDetail;
+- (UIViewController *)CTMediator_MineMain_viewController;
 
 @end

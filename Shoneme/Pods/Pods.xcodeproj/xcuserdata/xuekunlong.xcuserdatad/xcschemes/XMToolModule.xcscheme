@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2A2CFD9F3CF61FFAF852B548E13E0B39'
+               BlueprintIdentifier = '3D5A3598D2CC747C3652816E8897EA31'
                BlueprintName = 'XMToolModule'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libXMToolModule.a'>

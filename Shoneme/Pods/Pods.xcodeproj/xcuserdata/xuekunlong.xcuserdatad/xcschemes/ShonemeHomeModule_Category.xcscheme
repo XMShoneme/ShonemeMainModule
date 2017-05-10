@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4B962283C95D4ECCFE06D5C64648203B'
-               BlueprintName = 'XMBaseObjectModule'
+               BlueprintIdentifier = 'CADCE215D2607526D5DAAA65986C5861'
+               BlueprintName = 'ShonemeHomeModule_Category'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libXMBaseObjectModule.a'>
+               BuildableName = 'libShonemeHomeModule_Category.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

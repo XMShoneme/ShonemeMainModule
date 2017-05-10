@@ -14,50 +14,50 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - ShonemeHomeModule (1.0.5):
-    - ShonemeHomeModule/Targets (= 1.0.5)
-    - ShonemeHomeModule/VC (= 1.0.5)
-    - XMBaseObjectModule
-  - ShonemeHomeModule/Targets (1.0.5):
+  - ShonemeHomeModule (1.0.6):
+    - ShonemeHomeModule/Targets (= 1.0.6)
+    - ShonemeHomeModule/VC (= 1.0.6)
+    - XMBaseObjectModule (~> 1.0.1)
+  - ShonemeHomeModule/Targets (1.0.6):
     - ShonemeHomeModule/VC
-    - XMBaseObjectModule
-  - ShonemeHomeModule/VC (1.0.5):
-    - XMBaseObjectModule
+    - XMBaseObjectModule (~> 1.0.1)
+  - ShonemeHomeModule/VC (1.0.6):
+    - XMBaseObjectModule (~> 1.0.1)
   - ShonemeHomeModule_Category (1.0.3):
     - XMCTMediator
-  - ShonemeMineModule (1.0.7):
-    - ShonemeMineModule/Targets (= 1.0.7)
-    - ShonemeMineModule/VC (= 1.0.7)
-    - XMBaseObjectModule
-  - ShonemeMineModule/Targets (1.0.7):
+  - ShonemeMineModule (1.0.8):
+    - ShonemeMineModule/Targets (= 1.0.8)
+    - ShonemeMineModule/VC (= 1.0.8)
+    - XMBaseObjectModule (~> 1.0.1)
+  - ShonemeMineModule/Targets (1.0.8):
     - ShonemeMineModule/VC
-    - XMBaseObjectModule
-  - ShonemeMineModule/VC (1.0.7):
-    - XMBaseObjectModule
+    - XMBaseObjectModule (~> 1.0.1)
+  - ShonemeMineModule/VC (1.0.8):
+    - XMBaseObjectModule (~> 1.0.1)
   - ShonemeMineModule_Category (1.0.1):
     - XMCTMediator
-  - XMBaseObjectModule (1.0.0)
+  - XMBaseObjectModule (1.0.1)
   - XMCTMediator (1.0.2)
   - XMToolModule (1.0.1)
 
 DEPENDENCIES:
   - AFNetworking
-  - ShonemeHomeModule (= 1.0.5)
+  - ShonemeHomeModule (= 1.0.6)
   - ShonemeHomeModule_Category (= 1.0.3)
-  - ShonemeMineModule (~> 1.0.7)
+  - ShonemeMineModule (~> 1.0.8)
   - ShonemeMineModule_Category (= 1.0.1)
   - XMToolModule
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  ShonemeHomeModule: b2d05a46c7ff4068941cf18d376ba91d2a4a24c7
+  ShonemeHomeModule: 3b1050fcd52c57f33a52f6e585a61f47f5017382
   ShonemeHomeModule_Category: e813f6ba9334d5ca3f1f0c89bbc78bf7a85d50fb
-  ShonemeMineModule: 67928b59fa04a4d546607edb98546b0cf19bfa99
+  ShonemeMineModule: 2baed74ec998f0c3db004ca1a38b5810992cbebd
   ShonemeMineModule_Category: 131f158891376ae76dbc3690f9057c525abc6624
-  XMBaseObjectModule: bbb16a87809ead1d8c77f79ac03725902481125f
+  XMBaseObjectModule: 2c19674ff50d990bd5b7e04bd81d28eac6d89e2a
   XMCTMediator: 2a99c6b1ad6e6cbe2be8d11aa3530978bb29dc6b
   XMToolModule: 3b5830338de9ea61cb1932ad8344fe45a45bb6f8
 
-PODFILE CHECKSUM: 03effcaa7848eb3969f3a3f0ef46277016535218
+PODFILE CHECKSUM: 665f623ccf37c4320fa3f186899d1758336d99ad
 
 COCOAPODS: 1.2.1

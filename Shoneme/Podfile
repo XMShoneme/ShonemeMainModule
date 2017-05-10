@@ -6,10 +6,10 @@ target 'Shoneme' do
     
     pod 'XMToolModule'
     
-    pod 'ShonemeMineModule' , '~>1.0.7'
+    pod 'ShonemeMineModule' , '~>1.0.8'
     pod 'ShonemeMineModule_Category' , '1.0.1'
     
-    pod 'ShonemeHomeModule' , '1.0.5'
+    pod 'ShonemeHomeModule' , '1.0.6'
     pod 'ShonemeHomeModule_Category' , '1.0.3'
     
 end

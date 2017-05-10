@@ -3,13 +3,13 @@ platform :ios, '8.0'
 target 'Shoneme' do
 
     pod 'AFNetworking'
-    pod 'XMToolModule'
     
+    pod 'XMToolModule'
     
     pod 'ShonemeMineModule' , '~>1.0.7'
     pod 'ShonemeMineModule_Category' , '1.0.1'
     
-    pod 'ShonemeHomeModule'
-    pod 'ShonemeHomeModule_Category' , '1.0.1'
+    pod 'ShonemeHomeModule' , '1.0.5'
+    pod 'ShonemeHomeModule_Category' , '1.0.3'
 
 end

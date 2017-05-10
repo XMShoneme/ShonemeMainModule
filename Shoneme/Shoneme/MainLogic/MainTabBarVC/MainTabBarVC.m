@@ -8,7 +8,6 @@
 
 #import "MainTabBarVC.h"
 #import <XMBaseObjectModule/BaseNavigationViewController.h>
-
 #import <ShonemeMineModule_Category/XMCTMediator+MineModuleActions.h>
 #import <ShonemeHomeModule_Category/XMCTMediator+HomeModuleAction.h>
 
@@ -42,7 +41,8 @@
     NSMutableDictionary *selectTextAttrs = [NSMutableDictionary dictionary];
     selectTextAttrs[NSForegroundColorAttributeName] = [UIColor orangeColor];
     
-    UIViewController *homePageViewController = [[XMCTMediator sharedInstance] CTMediator_HomeMain_viewController];
+    NSDictionary *homeDic = [NSDictionary dictionaryWithObject:@"id_1" forKey:@"key"];
+    UIViewController *homePageViewController = [[XMCTMediator sharedInstance] CTMediator_HomeMainViewControllerWithDic:homeDic];
     BaseNavigationViewController *homePageNavigation = [[BaseNavigationViewController alloc] initWithRootViewController:homePageViewController];
     homePageNavigation.tabBarItem.title=@"首页";
     

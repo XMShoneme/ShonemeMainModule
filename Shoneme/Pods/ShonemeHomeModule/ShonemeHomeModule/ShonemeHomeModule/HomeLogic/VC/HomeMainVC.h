@@ -10,4 +10,8 @@
 
 @interface HomeMainVC : BaseViewController
 
+
+- (instancetype)initWithHomeID:(NSString *)homeId;
+
+
 @end

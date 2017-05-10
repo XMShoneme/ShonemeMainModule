@@ -11,6 +11,6 @@
 
 @interface Target_HomeMain : NSObject
 
-- (UIViewController *)Action_viewController:(NSDictionary *)params;
+- (UIViewController *)Action_viewControllerWithDic:(NSDictionary *)params;
 
 @end

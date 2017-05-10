@@ -14,16 +14,16 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - ShonemeHomeModule (1.0.2):
-    - ShonemeHomeModule/Targets (= 1.0.2)
-    - ShonemeHomeModule/VC (= 1.0.2)
+  - ShonemeHomeModule (1.0.5):
+    - ShonemeHomeModule/Targets (= 1.0.5)
+    - ShonemeHomeModule/VC (= 1.0.5)
     - XMBaseObjectModule
-  - ShonemeHomeModule/Targets (1.0.2):
+  - ShonemeHomeModule/Targets (1.0.5):
     - ShonemeHomeModule/VC
     - XMBaseObjectModule
-  - ShonemeHomeModule/VC (1.0.2):
+  - ShonemeHomeModule/VC (1.0.5):
     - XMBaseObjectModule
-  - ShonemeHomeModule_Category (1.0.1):
+  - ShonemeHomeModule_Category (1.0.3):
     - XMCTMediator
   - ShonemeMineModule (1.0.7):
     - ShonemeMineModule/Targets (= 1.0.7)
@@ -42,22 +42,22 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - ShonemeHomeModule
-  - ShonemeHomeModule_Category (= 1.0.1)
+  - ShonemeHomeModule (= 1.0.5)
+  - ShonemeHomeModule_Category (= 1.0.3)
   - ShonemeMineModule (~> 1.0.7)
   - ShonemeMineModule_Category (= 1.0.1)
   - XMToolModule
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  ShonemeHomeModule: e3585c586bb2e1e888f4ed5cb8bb0f4b141802f8
-  ShonemeHomeModule_Category: dc83c655e3c35cf317e635a51f1dfca128061a1b
+  ShonemeHomeModule: b2d05a46c7ff4068941cf18d376ba91d2a4a24c7
+  ShonemeHomeModule_Category: e813f6ba9334d5ca3f1f0c89bbc78bf7a85d50fb
   ShonemeMineModule: 67928b59fa04a4d546607edb98546b0cf19bfa99
   ShonemeMineModule_Category: 131f158891376ae76dbc3690f9057c525abc6624
   XMBaseObjectModule: bbb16a87809ead1d8c77f79ac03725902481125f
   XMCTMediator: 2a99c6b1ad6e6cbe2be8d11aa3530978bb29dc6b
   XMToolModule: 3b5830338de9ea61cb1932ad8344fe45a45bb6f8
 
-PODFILE CHECKSUM: f5d23df936fe2639f49ed9f033904763fc36d85f
+PODFILE CHECKSUM: 8ac071d0b9f751ea3c2949ca3d5b706818f0b102
 
 COCOAPODS: 1.2.1

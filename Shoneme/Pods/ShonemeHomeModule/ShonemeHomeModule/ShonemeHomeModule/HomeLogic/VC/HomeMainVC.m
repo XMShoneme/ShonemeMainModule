@@ -10,14 +10,29 @@
 
 @interface HomeMainVC ()
 
+@property (nonatomic,copy) NSString *homeID;
+
 @end
 
 @implementation HomeMainVC
+
+#pragma mark - life cycle
+
+- (instancetype)initWithHomeID:(NSString *)homeId
+{
+    if (self = [super init])
+    {
+        _homeID = homeId;
+    }
+    return self;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     self.navigationItem.title = @"首页";
+    
+    NSLog(@"homeid:%@",_homeID);
     
 }
 
@@ -26,7 +41,5 @@
     [super didReceiveMemoryWarning];
    
 }
-
-
 
 @end

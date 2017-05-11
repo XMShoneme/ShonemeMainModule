@@ -34,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ShonemeNetWorkingModule.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>XMBaseObjectModule.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -51,6 +56,57 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>03495AD405E34EC934446262AD14399C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C77DDEF44E7C6EF967F0C38F21480C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>520205B0B776799ABB8180F0E850F4DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D09B6B93E004940A27155A6AE83DC9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>721570CF5869C541B7C243A3E48F76F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC98821BAABD88C5449310A8C8BA611B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2FA5DB5D8D3C661B62A7812452DE2F7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF54ECD424BEE97F726FC079FC6659E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFA0D398E46AE90A9E771AC6CC119E14</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

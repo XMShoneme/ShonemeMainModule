@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DF54ECD424BEE97F726FC079FC6659E6'
-               BlueprintName = 'Pods-Shoneme'
+               BlueprintIdentifier = '721570CF5869C541B7C243A3E48F76F5'
+               BlueprintName = 'ShonemeNetWorkingModule'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-Shoneme.a'>
+               BuildableName = 'libShonemeNetWorkingModule.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -2,8 +2,7 @@ platform :ios, '8.0'
 
 target 'Shoneme' do
 
-    pod 'AFNetworking'
-    
+    pod 'ShonemeNetWorkingModule' , '1.0.0'
     pod 'XMToolModule'
     
     pod 'ShonemeMineModule' , '~>1.0.8'

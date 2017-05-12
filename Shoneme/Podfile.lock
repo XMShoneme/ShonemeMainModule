@@ -36,7 +36,7 @@ PODS:
     - XMBaseObjectModule (~> 1.0.1)
   - ShonemeMineModule_Category (1.0.1):
     - XMCTMediator
-  - ShonemeNetWorkingModule (1.0.0):
+  - ShonemeNetWorkingModule (1.0.1):
     - AFNetworking (~> 3.1.0)
   - XMBaseObjectModule (1.0.1)
   - XMCTMediator (1.0.2)
@@ -47,7 +47,7 @@ DEPENDENCIES:
   - ShonemeHomeModule_Category (= 1.0.3)
   - ShonemeMineModule (~> 1.0.8)
   - ShonemeMineModule_Category (= 1.0.1)
-  - ShonemeNetWorkingModule (= 1.0.0)
+  - ShonemeNetWorkingModule (= 1.0.1)
   - XMToolModule
 
 SPEC CHECKSUMS:
@@ -56,11 +56,11 @@ SPEC CHECKSUMS:
   ShonemeHomeModule_Category: e813f6ba9334d5ca3f1f0c89bbc78bf7a85d50fb
   ShonemeMineModule: 2baed74ec998f0c3db004ca1a38b5810992cbebd
   ShonemeMineModule_Category: 131f158891376ae76dbc3690f9057c525abc6624
-  ShonemeNetWorkingModule: 850e684ace521ad323554fccc1448591c1c5b05a
+  ShonemeNetWorkingModule: efcaa20c8d502571cbee1ea7cc7ab0629af669b5
   XMBaseObjectModule: 2c19674ff50d990bd5b7e04bd81d28eac6d89e2a
   XMCTMediator: 2a99c6b1ad6e6cbe2be8d11aa3530978bb29dc6b
   XMToolModule: 3b5830338de9ea61cb1932ad8344fe45a45bb6f8
 
-PODFILE CHECKSUM: 749e7de0dcc4a53f200b141e7b49a2d64db16b62
+PODFILE CHECKSUM: d5347aefda865c7d3f3653e1377eb38c27ff8ad4
 
 COCOAPODS: 1.2.1
